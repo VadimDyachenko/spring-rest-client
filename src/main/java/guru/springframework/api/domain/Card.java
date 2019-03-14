@@ -1,11 +1,13 @@
 package guru.springframework.api.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 @Data
 public class Card {
     private String type;
-    private int number;
+    private String number;
+    @JsonProperty("expiration_date")
     private ExpirationDate expirationDate;
     private String iban;
     private String swift;
