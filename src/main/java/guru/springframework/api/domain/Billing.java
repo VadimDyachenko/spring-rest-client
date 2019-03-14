@@ -1,4 +1,4 @@
-package guru.springframework.api.springrestclient.domain;
+package guru.springframework.api.domain;
 
 import lombok.Data;
 
